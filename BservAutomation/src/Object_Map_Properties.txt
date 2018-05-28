@@ -1,0 +1,287 @@
+objectmap.properties
+
+#DAW
+rbtnYesDAW1= id:ContentPlaceHolder1_gvDawDetails_rdcoverage_0_0_0
+rbtnYesDAW2= id:ContentPlaceHolder1_gvDawDetails_rdcoverage_1_0_1
+rbtnNoDAW1= id:ContentPlaceHolder1_gvDawDetails_rdcoverage_0_1_0
+rbtnNoDAW2= id:ContentPlaceHolder1_gvDawDetails_rdcoverage_1_1_1
+#Delivery System
+MailMaxDaysSupply = id:ContentPlaceHolder1_gvDeliverySystem_txtMaxDaySupply_2
+BServeLogo= xpath://img[@src='/Images/benefitServLogo.jpg']
+
+#Copy From Template
+lnkPACSourcePDL2017	 =   id:ContentPlaceHolder1_BCListView1_gvList_Template Name_0
+lnkPACSourceSBDL2017 =   id:ContentPlaceHolder1_BCListView1_gvList_Template Name_1
+
+#Bserve Logo
+Page_Logo = xpath://img[@src='/Images/benefitServLogo.jpg']
+#Login
+LoginUserUserName = xpath://input[@name='lgnLoginUser$UserName']
+LoginUserPassword = xpath://input[@name='lgnLoginUser$Password']
+Lbl_LoginUserUserName=   id://*[@id='lgnLoginUser']/tbody/tr/td/table/tbody/tr[1]/td/div/label
+BtnSubmit= xpath://input[@type='submit']
+
+BtMemberMapping=   id:ContentPlaceHolder1_BtMemberMapping
+BtoK=   id:ContentPlaceHolder1_okbutton
+EdtZipcode=   id:ContentPlaceHolder1_TextZipcode
+ListState=   id:ContentPlaceHolder1_ddlState
+btnProceed=   id:ContentPlaceHolder1_btnProceed
+btnFinalize=   id:ucmenu_btnFinalize
+BtoK=   id:ContentPlaceHolder1_okbutton
+BtoK=   id:ContentPlaceHolder1_okbutton
+Scenarioattributes=   id:ContentPlaceHolder1_scenarioattributes
+ViewDrugCopay=   id:ContentPlaceHolder1_gvViewDrugCopay
+
+Resetdate=   id:ContentPlaceHolder1_txtResetdate
+rblDeductibleCoverage_0=   id:ContentPlaceHolder1_rblDeductibleCoverage_0
+rdbtnDedType_0=   id:ContentPlaceHolder1_rdbtnDedType_0
+rdbtnDedType_1=   id:ContentPlaceHolder1_rdbtnDedType_1
+rddedaccinfourthquarter_0=   id:ContentPlaceHolder1_rddedaccinfourthquarter_0
+rddedaccinfourthquarter_1=   id:ContentPlaceHolder1_rddedaccinfourthquarter_1
+rddedaccinfourthquarter_2=   id:ContentPlaceHolder1_rddedaccinfourthquarter_2
+Edit_Ded_Icon =   id:ContentPlaceHolder1_gvInclusions_imgbtnEdit_0
+DrugClass=   id:ContentPlaceHolder1_txtDrugClass
+cblDrugClass_0=   id:ContentPlaceHolder1_cblDrugClass_0
+cblDrugClass_3=   id:ContentPlaceHolder1_cblDrugClass_3
+
+
+EdtIndividualAmt=id:ContentPlaceHolder1_txtIndividualAmt
+EdtFamilyAmt=id:ContentPlaceHolder1_txtFamilyAmt
+
+DAW_ExcludedPrescriber =linkText:DAW & Excluded Prescriber
+btnAddDAW=   id:ContentPlaceHolder1_btnAddDAW
+btnsavedrugcopay=   id:ContentPlaceHolder1_btnsavedrugcopay
+lgndSteppedcopayVA=   id:ContentPlaceHolder1_lgndSteppedcopayVA
+SteppedCopayVA= linkText:Stepped Copay VA
+Legend1=id:ContentPlaceHolder1_ddlmonths
+		  #ContentPlaceHolder1_ddlmonths
+SteppedCopayVA_WaitElm=id:ContentPlaceHolder1_rbtnVAClaims_0
+
+btnEditDrugcopay=   id:ContentPlaceHolder1_gvViewDrugCopay_btnEditDrugcopay_# not used
+btn_Clear=   id:ContentPlaceHolder1_btn_Clear
+
+Edt_BPDName= xpath://input[@name='ctl00$ContentPlaceHolder1$txtBPDName']
+Btn_Search= xpath://input[@value='Search']
+
+Btn_Next= id:ContentPlaceHolder1_BCPaging1_ibtnNext
+Edt_Copay= id:ContentPlaceHolder1_txtcopay
+Edt_MinCopay= id:ContentPlaceHolder1_txtmincopay
+Edt_MaxCopay= id:ContentPlaceHolder1_txtmaxcopay
+Edit_DawDetails_img=    id:ContentPlaceHolder1_gvDawDetails_imgEdit_0
+Edit_DawDetails_img_0=  id:ContentPlaceHolder1_gvDawDetails_imgEdit_0
+Edit_DawDetails_img_1=   id:ContentPlaceHolder1_gvDawDetails_imgEdit_1
+Edit_DawDetails_img_2=   id:ContentPlaceHolder1_gvDawDetails_imgEdit_2
+
+#Edit_DawDetails_img , #Edit_MembeClientPay
+Edit_MembeClientPay= id:ContentPlaceHolder1_ddlMembeClientPay
+Edit_CostShare = id:ContentPlaceHolder1_ddlCostShare
+btnSaveDAWInterim= id:ContentPlaceHolder1_btnSaveDAWInterim
+
+Btn_DeductibleSave= id:ContentPlaceHolder1_Btn_DeductibleSave
+rblDeductibleCoverage_1= id:ContentPlaceHolder1_rblDeductibleCoverage_1
+Btn_dlr_DeductibleSave= name:ctl00$ContentPlaceHolder1$Btn_DeductibleSave
+lblMOOPCoverage= id:ContentPlaceHolder1_lblMOOPCoverage
+rbtnMOOPCoverage_0= id:ContentPlaceHolder1_rbtnMOOPCoverage_0
+rdbtnMOOPType_0 = id:ContentPlaceHolder1_rdbtnMOOPType_0
+rdbtnMOOPType_1 = id:ContentPlaceHolder1_rdbtnMOOPType_1
+rdbtnDaw_1 = id:ContentPlaceHolder1_rdbtnDaw_1
+rdbtnDaw_0 = id:ContentPlaceHolder1_rdbtnDaw_0
+rdbtnDedAppliesToMOOP_0 = id:ContentPlaceHolder1_rdbtnDedAppliesToMOOP_0
+rdbtnDedAppliesToMOOP_1 = id:ContentPlaceHolder1_rdbtnDedAppliesToMOOP_1
+rdbtnDedAppliesToMOOP_2 = id:ContentPlaceHolder1_rdbtnDedAppliesToMOOP_2
+btnMOOPInclusions = id:ContentPlaceHolder1_gvMOOPInclusions_imgbtnEdit_0
+Btn_MoopSave = id:ContentPlaceHolder1_Btn_MoopSave
+Max_Allowed_Ben = linkText:Maximum Allowable Benefits
+Btn_MabSave = id:ContentPlaceHolder1_Btn_MabSave
+rbtnMABCoverage_1 = id:ContentPlaceHolder1_rbtnMABCoverage_1
+CAG_ContractDetails =linkText:CAG & Contract Details
+							 #CAG & Contract Details
+
+btnSaveNext = id:ContentPlaceHolder1_btnSaveNext
+EdtAddCarrierCodefoot_0 = id:ContentPlaceHolder1_gvAddGroupCode_txtAddCarrierCodefoot_0
+EdtAccountCodefoot_0    = id:ContentPlaceHolder1_gvAddGroupCode_txtAccountCodefoot_0
+EdtGroupCodefoot_0    = id:ContentPlaceHolder1_gvAddGroupCode_txtGroupCodefoot_0
+btnAddDS    = id:ContentPlaceHolder1_btnAddDS
+PlanEffectivedate = id:ContentPlaceHolder1_txtPlanEffectivedate
+btnNext = id:ContentPlaceHolder1_btnNext
+
+
+#Accumulations - Page
+Accumulations=linkText:Accumulations
+benefitperiod=id:ContentPlaceHolder1_ddlbenefitperiod
+MaximumOutOfPocket=linkText:Maximum Out Of Pocket
+
+rbtnMOOPCoverage_1=id:ContentPlaceHolder1_rbtnMOOPCoverage_1
+
+Non_Preferred_Brand_Tab= linkText:Non Preferred Brand
+Preferred_Brand_Tab= xpath://*[@id='ContentPlaceHolder1_menutierSteppedCopay']/ul/li[2]
+Preferred_Brand_Link= xpath://*[@id='ContentPlaceHolder1_menutierSteppedCopay']/ul/li[2]/a
+Non_Preferred_Brand_Tab2= xpath://*[@id='ContentPlaceHolder1_menutierSteppedCopay']/ul/li[3]
+Non_Preferred_Brand_Link= xpath://*[@id='ContentPlaceHolder1_menutierSteppedCopay']/ul/li[3]/a
+Speciality_Tab = xpath://*[@id='ContentPlaceHolder1_menutierSteppedCopay']/ul/li[4]
+Speciality_Link= xpath://*[@id='ContentPlaceHolder1_menutierSteppedCopay']/ul/li[4]/a
+
+
+Edt_30=   id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_txtbx3_0
+Edt_60=   id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_txtbx3_1
+Edt_90=   id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_txtbx3_2
+Edt_30_2= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_txtbx3_3
+Edt_60_2= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_txtbx3_4
+Edt_90_2= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_txtbx3_5
+Edt_30_3= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_txtbx3_6
+Edt_60_3= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_txtbx3_7
+Edt_90_3= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_txtbx3_8
+Edt_30_3= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_txtbx3_9
+Edt_60_3= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_txtbx3_10
+Edt_90_3= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_txtbx3_11
+
+Edt_Retail_IN_MergedSteppedCopay_0=   id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_ddl2_0
+Edt_Retail_IN_MergedSteppedCopay_1=   id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_ddl2_1
+Edt_Retail_IN_MergedSteppedCopay_2=   id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_ddl2_2		
+		
+Edt_Retail_IN_MergedSteppedCopay_3=   id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_ddl2_3
+Edt_Retail_IN_MergedSteppedCopay_4=   id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_ddl2_4
+Edt_Retail_IN_MergedSteppedCopay_5=   id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_ddl2_5
+		
+Edt_Retail_IN_MergedSteppedCopay_6=   id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_ddl2_6
+Edt_Retail_IN_MergedSteppedCopay_7=   id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_ddl2_7
+Edt_Retail_IN_MergedSteppedCopay_8=   id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_ddl2_8
+
+Edt_Retail_Out_MergedSteppedCopay_9 = id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_ddl2_9
+Edt_Retail_Out_MergedSteppedCopay_10= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_ddl2_10
+Edt_Retail_Out_MergedSteppedCopay_11= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_ddl2_11
+
+Rbtn_Retail_CoPayment1_0= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_0_rbtnOperator_0_4_0
+										  #ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_0_rbtnOperator_0_4_0
+										  #ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_1_rbtnOperator_1_4_1
+										  #ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_0_rbtnOperator_0_4_0										  
+Rbtn_Retail_CoPayment1_1= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_1_rbtnOperator_1_4_1
+Rbtn_Retail_CoPayment1_2= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_2_rbtnOperator_2_4_2
+Rbtn_Retail_CoPayment1_3= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_3_rbtnOperator_3_4_3
+Rbtn_Retail_CoPayment1_4= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_4_rbtnOperator_4_4_4
+Rbtn_Retail_CoPayment1_5= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_5_rbtnOperator_5_4_5
+
+Rbtn_Retail_CoPayment1_6= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_6_rbtnOperator_6_4_6
+Rbtn_Retail_CoPayment1_8= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_8_rbtnOperator_8_4_8
+Rbtn_Retail_CoPayment1_9= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_9_rbtnOperator_9_4_9
+Rbtn_Retail_CoPayment1_11= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_11_rbtnOperator_11_4_11
+
+#txtmincopay
+CoPayment1txtmincopay102= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl02$CoPayment1$txtmincopay']
+CoPayment1txtmincopay103= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl03$CoPayment1$txtmincopay']
+CoPayment1txtmincopay104= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl04$CoPayment1$txtmincopay']
+CoPayment1txtmincopay105= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl05$CoPayment1$txtmincopay']
+CoPayment1txtmincopay106= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl06$CoPayment1$txtmincopay']
+CoPayment1txtmincopay107= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl07$CoPayment1$txtmincopay']
+CoPayment1txtmincopay108= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl08$CoPayment1$txtmincopay']
+CoPayment1txtmincopay109= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl09$CoPayment1$txtmincopay']
+CoPayment1txtmincopay110= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl10$CoPayment1$txtmincopay']
+CoPayment1txtmincopay111= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl11$CoPayment1$txtmincopay']
+CoPayment1txtmincopay112= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl12$CoPayment1$txtmincopay']
+CoPayment1txtmincopay113= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl13$CoPayment1$txtmincopay']
+#txtmaxcopay
+CoPayment1txtmaxcopay102= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl02$CoPayment1$txtmaxcopay']
+CoPayment1txtmaxcopay103= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl03$CoPayment1$txtmaxcopay']
+CoPayment1txtmaxcopay104= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl04$CoPayment1$txtmaxcopay']
+
+CoPayment1txtmaxcopay105= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl05$CoPayment1$txtmaxcopay']
+CoPayment1txtmaxcopay106= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl06$CoPayment1$txtmaxcopay']
+CoPayment1txtmaxcopay107= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl07$CoPayment1$txtmaxcopay']
+CoPayment1txtmaxcopay108= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl08$CoPayment1$txtmaxcopay']
+CoPayment1txtmaxcopay109= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl09$CoPayment1$txtmaxcopay']
+CoPayment1txtmaxcopay110= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl10$CoPayment1$txtmaxcopay']
+CoPayment1txtmaxcopay111= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl11$CoPayment1$txtmaxcopay']
+CoPayment1txtmaxcopay112= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl12$CoPayment1$txtmaxcopay']
+CoPayment1txtmaxcopay113= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl13$CoPayment1$txtmaxcopay']
+#txtcoinsurance
+CoPayment1txtcoinsurancee102= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl02$CoPayment1$txtcoinsurance']
+CoPayment1txtcoinsurancee103= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl03$CoPayment1$txtcoinsurance']
+CoPayment1txtcoinsurancee104= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl04$CoPayment1$txtcoinsurance']
+CoPayment1txtcoinsurancee105= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl05$CoPayment1$txtcoinsurance']
+CoPayment1txtcoinsurancee106= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl06$CoPayment1$txtcoinsurance']
+CoPayment1txtcoinsurancee107= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl07$CoPayment1$txtcoinsurance']
+CoPayment1txtcoinsurancee108= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl08$CoPayment1$txtcoinsurance']
+CoPayment1txtcoinsurancee109= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl09$CoPayment1$txtcoinsurance']
+CoPayment1txtcoinsurancee110= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl10$CoPayment1$txtcoinsurance']
+CoPayment1txtcoinsurancee111= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl11$CoPayment1$txtcoinsurance']
+CoPayment1txtcoinsurancee112= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl12$CoPayment1$txtcoinsurance']
+CoPayment1txtcoinsurancee113= xpath://input[@name='ctl00$ContentPlaceHolder1$GridMergedSteppedCopay$gvMerged$ctl13$CoPayment1$txtcoinsurance']
+
+menutierSteppedCopay= xpath://*[@id='ContentPlaceHolder1_menutierSteppedCopay']/ul/li[2]/a
+#ContentPlaceHolder1_menutierSteppedCopay_SkipLink
+
+#Stepped Copay
+SteppedCopayTab=linkText:Stepped Copay
+RbtnRetial_1_4_1     =id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_1_rbtnOperator_1_4_1
+RbtnRetailGreaterOf_1= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_1_rbtnOperator_1_0_1
+#retail rejection 30,60,90
+RbtnRetailRejectOf_0 = id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_0_rbtnOperator_0_2_0
+RbtnRetailRejectOf_1 = id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_1_rbtnOperator_1_2_1
+RbtnRetailRejectOf_2 = id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_2_rbtnOperator_2_2_2
+#mail rejection 30,60,90
+RbtnMailRejectOf_3 = id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_3_rbtnOperator_3_2_3
+RbtnMailRejectOf_4 = id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_4_rbtnOperator_4_2_4
+RbtnMailRejectOf_5 = id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_5_rbtnOperator_5_2_5
+
+imgCancelOf_0= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_0_imgCancel_0				  
+imgCancelOf_1= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_1_imgCancel_1
+imgCancelOf_2= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_2_imgCancel_2
+imgCancelOf_3= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_3_imgCancel_3
+imgCancelOf_4= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_4_imgCancel_4
+imgCancelOf_5= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_5_imgCancel_5
+
+
+
+EdtMincopay_1= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_1_txtmincopay_1
+				  
+
+RbtnPaperOut_10_4_10= id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_10_rbtnOperator_10_4_10
+RbtnPaperIN7_4_7    = id:ContentPlaceHolder1_GridMergedSteppedCopay_gvMerged_CoPayment1_7_rbtnOperator_7_4_7
+
+#Create Plan Design
+Paging1_ddlPageNumber= id:ContentPlaceHolder1_BCPaging1_ddlPageNumber
+header= id:ContentPlaceHolder1_header
+ImgForm1= xpath://*[@id='form1']/div[3]/div[1]/div/img
+ContainerHeader= id:ContentPlaceHolder1_outerContainerHeader
+Edt_Clientname= id:ContentPlaceHolder1_txtClientname
+Edt_PlanDesignName= id:ContentPlaceHolder1_txtPlanDesignName 
+BtnSearch= id:ContentPlaceHolder1_btnSearch123
+BtnMemberRequest= id:ContentPlaceHolder1_BtMemberRequest
+
+#Formulary Mapping - Page
+FM_BtnSearch= id:ContentPlaceHolder1_btnSearch
+
+EdtCoinsurance= id:ContentPlaceHolder1_txtcoinsurance
+EdtCopayOption= id:ContentPlaceHolder1_ddlCopayOption
+
+EdtFormularyID= id:ContentPlaceHolder1_txtFormularyID
+List_Select_2= id:ContentPlaceHolder1_BCListViewMain_gvList_Select_2
+List_Select_3= id:ContentPlaceHolder1_BCListViewMain_gvList_Select_3
+
+btnAssociate= id:ContentPlaceHolder1_btnAssociate
+ucmenu_65= id:ucmenu_65
+EdtTuftsSpecific= id:ContentPlaceHolder1_txttuftsSpecific
+EdtClientSpecific= id:ContentPlaceHolder1_txtClientSpecific
+BtnSaveAttributes= id:ContentPlaceHolder1_btnSaveAttributes
+btnClose= id:ContentPlaceHolder1_btnClose
+BtnExportToExcel= id:ContentPlaceHolder1_imgbtnexport
+BtnExcelExportIcon= id:ContentPlaceHolder1_BtnExportToExcel
+TabMember= id:ContentPlaceHolder1_TabMember
+TabDrugCopay= id:ContentPlaceHolder1_TabDrugCopay
+btnFirstRun= id:ContentPlaceHolder1_btnFirstRun
+TabScenario= id:ContentPlaceHolder1_TabScenario
+lblUserDesignation= id:lblUserDesignation
+lblUserName= id:lblUserName
+btnSave= id:ContentPlaceHolder1_btnSave
+btnSave2= id:ContentPlaceHolder1_btnsave
+
+Preferred_Brand= xpath://*[@id='ContentPlaceHolder1_menutierSteppedCopay']/ul/li[2]/a
+Non_Preferred_Brand= xpath://*[@id='ContentPlaceHolder1_menutierSteppedCopay']/ul/li[3]/a
+Specf_Tab= xpath://*[@id='ContentPlaceHolder1_menutierSteppedCopay']/ul/li[4]/a
+ObjPage_Logo= xpath://*[@id='form1']/div[3]/div[1]/div/img
+ObjRetAlert= xpath://*[@id='form1']/div[3]/div[1]/div/img
+ObjUniqueCopay= xpath://a[text()='Unique Copay']
+
+ImggGlobeIcon= xpath://Image[@src='/Images/globeIcon.gif']
+Tbl_Data= xpath://table[@id='ContentPlaceHolder1_BCListView1_gvList']/tbody/tr[2]/td[1]
+LblPageFooter= xpath://table/tbody/tr[@class = 'PageFooter']/td/img
