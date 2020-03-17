@@ -1,0 +1,83 @@
+package pkgFill_ESA_TimeSheet;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.text.DateFormat;
+import java.util.Date;
+import java.util.List;
+import java.util.Properties;
+
+import org.apache.commons.io.FileUtils;
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Select;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+import com.google.common.collect.Table.Cell; 
+
+public class clsFill_ESA_TimeSheet 
+{
+
+public static WebDriver driver;
+public static String Working_Dir = System.getProperty("user.dir");
+public static String Chrome_Driver_Path = "D:\\Development_Avecto\\chromedriver.exe";
+public static String ESA_URL = "https://onecognizant.cognizant.com";
+
+/* ####### Entering the values from accelerator */	/* ####### Entering the values from accelerator */	/* ####### Entering the values from accelerator */
+public static WebDriverWait wait15;
+public static WebDriverWait wait30;
+public static WebDriverWait wait45;
+public static WebDriverWait wait60;
+public static ObjectMap objmap;
+public static BufferedWriter BW;
+public static String Property_Path;
+public static boolean ExecutionStatus;    
+public static boolean Page_Logo_Displayed;
+
+public static  String Prent_WNDID;
+public static  FluentWait<WebDriver> wait31;
+public static  String FileName;
+public static Alert Unexpected_Alert;
+public static File Ab_File1;
+public static String Parent_Dir;
+public static String Input_File_Path;
+public static String Result_Folder_Path;
+public static String Download_Path;
+
+/* ####### Entering the values from accelerator */	/* ####### Entering the values from accelerator */	/* ####### Entering the values from accelerator */
+
+public static void main(String[] args) throws Exception 
+
+{
+	System.out.println("%%%%%%%%%%%% Script Details%%%%%%%%%%%% ");
+    
+	//Create File Path                                             
+	clsUtility_Functions.Create_File_Path();
+    
+	//For making as runnable Jar file ::: Property_Path =
+	Property_Path = Parent_Dir + "\\prjFill_ESA_TimeSheet\\resources\\objectmap.properties";
+	objmap =new ObjectMap(Property_Path);
+		 
+    //for executing locally in eclipse IDE:::
+    String workingDir=System.getProperty("user.dir");
+    
+	//Create  Chrome  Driver
+    clsUtility_Functions.Create_Chrome_Driver(); 
+	Thread.sleep(500);
+	clsUtility_Functions.Launch_One_Cognizant();
+    clsBusinessFunctions.NavigateTo_ESATimeSheet();
+    clsBusinessFunctions.EnterIn_ESATimeSheet();
+}
+}
+

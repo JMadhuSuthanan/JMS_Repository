@@ -1,0 +1,84 @@
+package pkgFill_ESA_TimeSheet;
+
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.util.Properties;
+import org.openqa.selenium.By;
+
+/*
+Creating an object map for Selenium tests
+1) We will create a properties file named "objectmap.properties".
+Format :  [logical_name]=[locator_type]:[locator_value]
+                 
+                 Username_field = id:login_login_username
+        Password_field = id:login_login_password
+        Login_button = id:login_submit
+        online_user=cssSelector:#sb-onlineusers > h3
+        
+*/
+
+public class ObjectMap 
+{
+  
+  //property file and provide the locator information to the test.
+  
+public static Properties properties;
+  
+public ObjectMap(String mapFile) throws IOException
+  {
+	  
+      properties = new Properties();
+      try 
+      {
+      FileInputStream Master = new FileInputStream(mapFile);
+      properties.load(Master);
+      Master.close();
+      }
+      catch (IOException e) 
+      {
+            System.out.println(e.getMessage());
+      }
+  }
+
+ public static By getLocator(String ElementName) throws Exception 
+   {
+         //Read value using the logical name as Key	   
+         String locator      = properties.getProperty(ElementName).trim(); //LblUserDesignation
+         //Split the value which contains locator type and locator value
+         String locatorType  = locator.split(":")[0].trim();
+         String locatorValue = locator.split(":")[1].trim();
+         //Return a instance of By class based on type of locator
+         By Object_locator   = null;
+         switch(locatorType.toLowerCase())
+ 		{
+	        case "id":
+	        	Object_locator= By.id(locatorValue);
+	        	break;
+			case "name":
+				Object_locator= By.name(locatorValue);
+				break;
+			case "classname": case "class":case "tagname": case "tag":
+				Object_locator= By.className(locatorValue);
+				break;
+			case "linktext": case "link":
+				Object_locator= By.linkText(locatorValue);
+				break;
+			case "partiallinktext":
+				Object_locator= By.partialLinkText(locatorValue);
+				break;
+			case "cssselector": case "css":
+				Object_locator= By.cssSelector(locatorValue);
+				break;
+			case "xpath":
+				Object_locator= By.xpath(locatorValue);
+				break;
+			default:
+	            throw new Exception("Locator type '" + locatorType + "' not defined!!");
+	            
+         }
+         return Object_locator;
+         
+   }
+ 
+
+}

@@ -1,0 +1,127 @@
+package pkgFill_ESA_TimeSheet;
+
+import java.io.BufferedWriter;
+import java.io.File;
+import java.util.List;
+
+import org.openqa.selenium.Alert;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.WebDriverWait;
+
+public class clsBusinessFunctions extends clsFill_ESA_TimeSheet {
+	// public static WebDriver driver;
+	/*
+	 * public static String Working_Dir = System.getProperty("user.dir"); public
+	 * static String Chrome_Driver_Path =
+	 * "D:\\Development_Avecto\\chromedriver.exe"; public static String ESA_URL =
+	 * "https://onecognizant.cognizant.com";
+	 * 
+	 * ####### Entering the values from accelerator ####### Entering the values from
+	 * accelerator ####### Entering the values from accelerator public static
+	 * WebDriverWait wait15; public static WebDriverWait wait30; public static
+	 * WebDriverWait wait45; public static WebDriverWait wait60; public static
+	 * ObjectMap objmap; public static BufferedWriter BW; public static String
+	 * Property_Path; public static boolean ExecutionStatus; public static boolean
+	 * Page_Logo_Displayed;
+	 * 
+	 * public static String Prent_WNDID; public static FluentWait<WebDriver> wait31;
+	 * public static String FileName; public static Alert Unexpected_Alert; public
+	 * static File Ab_File1; public static String Parent_Dir; public static String
+	 * Input_File_Path; public static String Result_Folder_Path; public static
+	 * String Download_Path;
+	 */
+	public static void EnterIn_ESATimeSheet() throws Exception {
+		//clsUtility_Functions.Wait_For_Element("txtPending_ESA_Week");
+		String winHandleBeforeClickingPending_ESA_Week = driver.getWindowHandle();
+
+		clsUtility_Functions.JavascriptExecutorClick("txtPending_ESA_Week");
+		Thread.sleep(1000);
+		
+		String winHandleAfterClickingPending_ESA_Week = driver.getWindowHandle();
+
+		driver.switchTo().frame("ptifrmtgtframe");//we are already in the window which has frame
+		
+		//ProjectID, 			ProjectIDProjectID, 			ProjectIDProjectID, 			ProjectIDProjectID, 			ProjectIDProjectID, 			ProjectID		
+		clsUtility_Functions.SendKeys_TO_Object("edtProjectID", "1000223742");
+		//clsUtility_Functions.SendKeys_TO_Object("edtProjectID", ProjectID);//need to get it from excel
+		clsUtility_Functions.JavascriptExecutorClick("imgProjectID");
+		
+		driver.switchTo().frame("ptModFrame_0");
+		clsUtility_Functions.JavascriptExecutorClick("imgSearchedProjectID");
+		driver.switchTo().defaultContent();
+		
+		//ProjectID, 			ProjectIDProjectID, 			ProjectIDProjectID, 			ProjectIDProjectID, 			ProjectIDProjectID, 			ProjectID
+		
+		//Activity	 ActivityActivity	 ActivityActivity	 ActivityActivity	 ActivityActivity	 ActivityActivity	 ActivityActivity	 ActivityActivity	 Activity	
+		clsUtility_Functions.SendKeys_TO_Object("edtActivity", "Coding and Unit Testing");
+		//clsUtility_Functions.SendKeys_TO_Object("edtActivity", Activity);//need to get it from excel
+		clsUtility_Functions.JavascriptExecutorClick("imgActivity");	
+		
+		driver.switchTo().frame("ptModFrame_8");
+		clsUtility_Functions.JavascriptExecutorClick("imgSearchedActivity");
+		driver.switchTo().defaultContent();
+		//Activity	 ActivityActivity	 ActivityActivity	 ActivityActivity	 ActivityActivity	 ActivityActivity	 ActivityActivity	 ActivityActivity	 Activity
+		
+		
+		clsUtility_Functions.SelectByVisibleText("lstOnsite_Offshore","OF");
+		//clsUtility_Functions.SelectByVisibleText("lstOnsite_Offshore",Onsite_Offshore);
+		
+		//Billable		Billable		Billable		Billable		Billable		Billable		Billable		Billable		Billable		Billable		Billable		Billable		
+		clsUtility_Functions.SelectByVisibleText("lstBillingAction","Billable");
+		//clsUtility_Functions.SelectByVisibleText("lstBillingAction",BillingAction);
+		
+		clsUtility_Functions.SendKeys_TO_Object("edtBillingLocation", "DFLT");
+		//clsUtility_Functions.SendKeys_TO_Object("edtBillingLocation", BillingLocation);//need to get it from excel
+		clsUtility_Functions.JavascriptExecutorClick("imgBillingLocation");
+		
+		driver.switchTo().frame("ptModFrame_11");
+		clsUtility_Functions.JavascriptExecutorClick("imgSearchedBillingLocation");
+		driver.switchTo().defaultContent();
+		//Billable		Billable		Billable		Billable		Billable		Billable		Billable		Billable		Billable		Billable		Billable		Billable		
+		
+		
+		
+		//driver.switchTo().defaultContent();//		
+	}
+
+	public static void NavigateTo_ESATimeSheet() throws Exception {
+
+		clsUtility_Functions.EnterValue_Element("edtSearchforApps", "Submit Timesheet");
+		clsUtility_Functions.JavascriptExecutorClick("btnSearchforApps");
+		Thread.sleep(1000);
+		
+		/* clsUtility_Functions.SwitchTo_Frame("frmSubmit_TimeSheet"); */
+		driver.switchTo().frame("appFrame");
+		clsUtility_Functions.ActionsDriverClick("iconSubmit_TimeSheet");
+		Thread.sleep(1000);
+		
+		// Store the current window handle
+		String winHandleBefore = driver.getWindowHandle();
+
+		// Perform the click operation that opens new window
+
+		// Switch to new window opened
+		for(String winHandle : driver.getWindowHandles()){
+		    driver.switchTo().window(winHandle);
+		}
+
+		// Perform the actions on new window
+		EnterIn_ESATimeSheet();
+		
+		// Close the new window, if that window no more required
+		driver.close();
+
+		// Switch back to original browser (first window)
+		driver.switchTo().window(winHandleBefore);
+
+		// Continue with original browser (first window)
+		
+
+	}
+
+}

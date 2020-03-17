@@ -1,0 +1,47 @@
+#Home Page
+edtSearchforApps 				= id:txtPlatformBarSearch
+btnSearchforApps 				= id:btnsearch
+
+#Apps found Page
+ 
+iconSubmit_TimeSheet 			= xpath://*[@id='desktopsearchresult']/ul/li[1]/div[1]/img|//img[contains(@src,'31_small.png')]
+
+#frmSubmit_TimeSheet 			= id:appFrame
+frmSubmit_TimeSheet 			= appFrame
+
+#Timesheet Summary Page
+#txtPending_ESA_Week				= id:CTS_TS_LAND_PER_CTS_TS_STATUS_LAND$0
+txtPending_ESA_Week				= id:CTS_TS_LAND_PER_DESCR30$0
+
+#Create Time Sheet Page
+#1000223742
+edtProjectID					= xpath://*[@id='PROJECT_CODE$0']
+imgProjectID					= xpath://*[@id='PROJECT_CODE$prompt$img$0']
+imgSearchedProjectID			= xpath://*[@id='SEARCH_RESULT1']
+
+#Integration & System Test
+edtActivity						= xpath://*[@id='CTS_EX_ACT_VW_DESCR$0']
+imgActivity						= xpath://*[@id='CTS_EX_ACT_VW_DESCR$prompt$img$0']
+imgSearchedActivity				= xpath://*[@id='SEARCH_RESULT1']
+
+lstOnsite_Offshore				= xpath://*[@id='EX_TIME_DTL_RESOURCE_TYPE$210$$0']
+
+lstBillingAction				= xpath://*[@id='BILLING_ACTION$0']
+edtBillingLocation				= xpath://*[@id='EX_TIME_DTL_RESOURCE_CATEGORY$216$$0']
+imgBillingLocation				= xpath://*[@id='EX_TIME_DTL_RESOURCE_CATEGORY$216$$prompt$img$0']
+imgSearchedBillingLocation		= xpath://*[@id='SEARCH_RESULT1']
+
+edtMON_Day						= xpath://*[@id='TIME3$0']
+edtTUE_Day						= xpath://*[@id='TIME4$0']
+edtWED_Day						= xpath://*[@id='TIME5$0']
+edtTHU_Day						= xpath://*[@id='TIME6$0']
+edtFRI_Day						= xpath://*[@id='TIME7$0']
+
+btnSaveForLater 				= id:EX_ICLIENT_WRK_SAVE_PB
+btnSubmitWithConfirmation		= id:EX_TIME_HDR_WRK_PB_SUBMIT
+
+		
+
+
+#DFLT 
+
